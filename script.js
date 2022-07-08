@@ -12,8 +12,7 @@ document.body.appendChild(red);
 
 let blue = document.createElement('h3')
 blue.textContent =  'I\'m a blue h3!';
-blue.style.color = 'blue';
-blue.setAttribute('style', 'text-align: center');
+blue.setAttribute('style', 'text-align: center; color: blue;');
 document.body.appendChild(blue);
 
 let pinkBG = document.createElement('div');
