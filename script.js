@@ -4,6 +4,8 @@ let red = document.createElement('p');
 /* writes out the text within the p element */
 red.textContent = "Hello World!";
 /* colors the p tag */
+/* Aligns text. */
+red.setAttribute('style', 'text-align: center');
 red.style.color = 'red';       
 /* adds it to the body */
 document.body.appendChild(red);
@@ -11,6 +13,7 @@ document.body.appendChild(red);
 let blue = document.createElement('h3')
 blue.textContent =  'I\'m a blue h3!';
 blue.style.color = 'blue';
+blue.setAttribute('style', 'text-align: center');
 document.body.appendChild(blue);
 
 let pinkBG = document.createElement('div');
